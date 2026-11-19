@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'flask-registration'
+        IMAGE_NAME = 'nousheenr/flask-registration'
         COMPOSE_FILE = 'docker-compose.yml'
     }
 
